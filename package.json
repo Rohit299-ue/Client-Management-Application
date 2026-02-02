@@ -1,16 +1,17 @@
 {
-  "name": "client-management-application0",
+  "name": "client-management-application",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --host 0.0.0.0 --port $PORT"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Modern client management application with React and Tailwind CSS",
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
