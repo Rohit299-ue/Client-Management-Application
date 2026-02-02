@@ -1,0 +1,30 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="cGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- C Circle with gradient -->
+  <circle cx="60" cy="60" r="50" fill="url(#cGradient)" opacity="0.9"/>
+  
+  <!-- Inner dark circle -->
+  <circle cx="60" cy="60" r="35" fill="#1E293B"/>
+  
+  <!-- Menu icon inside -->
+  <rect x="48" y="50" width="24" height="3" rx="1.5" fill="#3B82F6"/>
+  <rect x="48" y="57" width="18" height="3" rx="1.5" fill="#3B82F6"/>
+  <rect x="48" y="64" width="24" height="3" rx="1.5" fill="#3B82F6"/>
+  
+  <!-- Background rounded rectangle for text -->
+  <rect x="120" y="25" width="270" height="70" rx="15" fill="#1E293B" opacity="0.95"/>
+  
+  <!-- "Clint" text - BRIGHT WHITE -->
+  <text x="140" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">Clint</text>
+  
+  <!-- "UI" text - BRIGHT BLUE -->
+  <text x="290" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3B82F6">UI</text>
+</svg>
